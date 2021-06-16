@@ -17,7 +17,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 app.get('/', (req, res) => {
-    res.send('Hello Universe ')
+    res.send('Hello Universe')
 })
 
 app.get("/api/rescompany", (req,res) => {
